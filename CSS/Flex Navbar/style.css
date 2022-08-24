@@ -1,0 +1,41 @@
+.nav{
+    height: 70px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgrey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-title{
+    color: white; 
+    margin: 10px;
+}
+
+.nav-links{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.active{
+    margin: 10px;
+    font-weight: 600;
+}
+
+.btn{
+    margin-left: 10px;
+    box-shadow: 2px 2px 1px #000000;
+    background-color:aqua;
+    margin-right: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+a{
+    color: white;
+    
+}
