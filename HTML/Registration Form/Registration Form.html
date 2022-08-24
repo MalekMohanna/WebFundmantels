@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Registration Form</h1>
-    <form action="/process" method="post"></form>
+    <form>
     <div>
         <label>First name :*<input type="text"></label>
     </div>
@@ -31,7 +31,8 @@
         <label>Gender Identity :</label>
     </div>
     <input type="radio" name="Gender" value="Male" id="Male">
-    <label for="Male">Male</label>
+    <label 
+    ="Male">Male</label>
     <input type="radio" name="Gender" value="Female" id="Female">
     <label for="Female">Female</label>
     <input type="radio" name="Gender" value="Non-binary" id="Non-binary">
@@ -43,7 +44,7 @@
     </div>
     <textarea name="" id="" cols="40" rows="5"></textarea>
     <div>
-        <label>Favorite language : 
+        <label>Favorite language : </label>
             <select name="Favorite language">
                 <option>JavaScript</option>
                 <option>HTML</option>
@@ -51,7 +52,7 @@
                 <option>C#</option>
             </select>
             
-        </label>
+        
     </div>
    
     <div>
@@ -60,5 +61,6 @@
     </div>
     <input type="submit" value="Create an acount" >
     <label for="* Indicates required field"></label>
+</form>
 </body>
 </html>
