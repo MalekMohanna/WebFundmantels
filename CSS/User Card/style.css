@@ -8,6 +8,9 @@
     width: 800px;
     height: 430px;
     display: flex;
+    position: absolute;
+    left: 150px;
+    top: 40px;
 }
 
 nav{
@@ -17,7 +20,7 @@ nav{
     position: absolute;
 }
 
-.Pic {
+.img0 {
     height: 120px;
     width: 120px;
     position: absolute;
@@ -61,7 +64,7 @@ h3{
     left: 30px;
 }
 
-a{
+.edits{
     position:absolute;
     top: 372px;
     left: 60px;
