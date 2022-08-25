@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+.container-main{
+    width: 980px;
+    height: 800px;
+}
+
+.nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-title{
+    color: white; 
+    position: absolute;
+    left: 150px;
+    top: 13px;
+}
+
+a.links1{
+    color: white;
+    margin-right: 15px;
+}
+
+.nav-links{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 23px;
+    left: 290px;
+
+}
+
+.active{
+    margin: 10px;
+    font-weight: 600;
+}
+
+.btn{
+    margin-left: 10px;
+    box-shadow: 2px 2px 1px #000000;
+    background-color:aqua;
+    margin-left: 180px;
+
+    color: white;
+    font-weight: 700;
+}
+
+
+.container{
+    width: 600px;
+    height: 430px;
+    display: flex;
+    position: absolute;
+    left: 130px;
+    top: 100px;
+    border: 1px solid gray;
+}
+
+nav{
+    height: 150px;
+    width: 600px;
+    background-color: aqua;
+    position: absolute;
+}
+
+.img0 {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.Name{
+    position: absolute;
+    top: 210px;
+    left: 30px;
+}
+
+.img1{
+    height: 20px;
+    width: 15px;
+    position: absolute;
+    top: 260px;
+    left: 30px;
+}
+
+h2{
+    position: absolute;
+    top: 252px;
+    left: 60px;
+}
+
+h3{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+
+.img3{
+    height: 20px;
+    width: 15px;
+    position: absolute;
+    top: 375px;
+    left: 30px;
+}
+
+.edits{
+    position:absolute;
+    top: 372px;
+    left: 60px;
+
+}
+
+.top-box{
+    height: 200px;
+    width: 234px;
+    border: 3px solid lightgray;
+    position: absolute;
+    left: 740px;
+    top: 100px;
+    display: flex;
+}
+
+.connection-requests{
+    height: 50px ;
+    width: 235px ;
+    background-color: darkslategray;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userpic{
+    height: 40px;
+    width: 40px;
+}
+
+.cirlce-num{
+    color: black;
+    border: 1px solid gray;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.bot-box{
+    height: 336px;
+    width: 236px;
+    border: 3px solid lightgrey;
+    position: absolute;
+    left: 740px;
+    top: 310px;
+}
+
+.table1{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 51px;
+
+}
+
+tr.line{
+    width: 234px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 10px;
+
+}
+
+#view-link{
+    width: 238px;
+    height: 30px;
+    border: 3px solid lightgray;
+    position: absolute;
+    top: 340px;
+}
+
+.footer-box{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top:550px;
+    left: 130px;
+}
+
+.edu{
+    height: 60px;
+    background-color: darkslategray;
+    color: white;
+}
+
+p.x{
+    margin-left: 60px;
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+}
+
+.bot-text{
+    width: 595px;
+    height: 100px;
+    border: 3px solid lightgray;
+}
+
+.line1{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.line2{
+    color: gray;
+    margin-left: 30px;
+}
+
+.line3{
+    font-size: 20px;
+    margin-left: 30px;
+}
