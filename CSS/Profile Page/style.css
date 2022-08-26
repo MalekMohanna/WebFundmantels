@@ -188,6 +188,20 @@ justify-content: space-around;
 
 }
 
+tr.line2{
+    width: 234px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    margin: 0px;
+
+}
+td{
+    height: 60px;
+    width: 70px;
+}
+
 #view-link{
 width: 235px;
 height: 25px;
