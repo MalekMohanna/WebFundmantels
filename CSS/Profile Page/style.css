@@ -175,22 +175,22 @@ h3{
     height: fit-content;
     position: absolute;
     top: 51px;
-
+    
 }
 
 tr.line{
     width: 234px;
     height: 60px;
     display: flex;
-    justify-content: space-evenly;
+justify-content: space-around;
     align-content: center;
     margin-top: 10px;
 
 }
 
 #view-link{
-    width: 238px;
-    height: 30px;
+width: 235px;
+height: 25px;
     border: 3px solid lightgray;
     position: absolute;
     top: 340px;
