@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 1080px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    grid-template-areas:
+    "header header header"
+}
+
+header{
+    grid-area: header;
+    height: 172px;
+    width: 1080px;
+    border: 2px solid black;
+}
