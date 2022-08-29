@@ -12,6 +12,11 @@
     gap: 10px;
     grid-template-areas:
     "header header header"
+    "side main1 main1"
+    "side2 pic pic"
+    "empty main2 main2"
+    "footer footer footer"
+
 }
 
 header{
@@ -19,4 +24,28 @@ header{
     height: 172px;
     width: 1080px;
     border: 2px solid black;
+}
+
+.aside1{
+    grid-area: side;
+}
+
+.aside2{
+    grid-area: side2;
+}
+
+.main1{
+    grid-area: main1;
+}
+
+.main2{
+    grid-area: main2;
+}
+
+.mid-pic{
+    grid-area: pic;
+}
+
+footer{
+    grid-area: footer;
 }
