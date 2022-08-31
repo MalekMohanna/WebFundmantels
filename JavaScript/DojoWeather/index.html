@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DojoWeather</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <h1>DojoWeather</h1>
+            <div class="header-boxes">
+                <a href="" class="cities" onclick="notif()">Burbank</a>
+                <a href="" class="cities" onclick="notif()">Chicago</a>
+                <a href="" class="cities" onclick="notif()">Dallas</a>
+            </div>
+        </header>
+        <div class="body-container">
+            <nav>
+                <h2>SanJose</h2>
+                <div class="temp-scale">
+                    <label for="measure">show tempreture in</label>
+                    <select name="hello" id="measure" onchange="change()">
+                        <option value="℃">℃</option>
+                        <option value="℉">℉</option>
+                </div>
+                </select>
+            </nav>
+            <main>
+                <div class="days">
+                    <p class="the-day">Today</p>
+                    <img class="wather-pic" src="assets/some_rain.png" alt="rain">
+                    <p class="the-weather">some rain</p>
+                    <p class="high">24° <span class="low">18°</span></p>
+                </div>
+                <div class="days">
+                    <p class="the-day">Tomorrow</p>
+                    <img class="wather-pic" src="assets/some_sun.png" alt="sun">
+                    <p class="the-weather">some sun</p>
+                    <p class="high">27° <span class="low">19°</span></p>
+                </div>
+                <div class="days">
+                    <p class="the-day">Friday</p>
+                    <img class="wather-pic" src="assets/some_clouds.png" alt="cloud">
+                    <p class="the-weather">some rain</p>
+                    <p class="high">21° <span class="low">16°</span></p>
+                </div>
+                <div class="days">
+                    <p class="the-day">Saturday</p>
+                    <img class="wather-pic" src="assets/some_sun.png" alt="sun">
+                    <p class="the-weather">some sun</p>
+                    <p class="high">26° <span class="low">21°</span></p>
+                </div>
+            </main>
+            <footer>
+                <img src="assets\cookie.png" alt="cookie">
+                <div class="bottom">
+                    <p>
+                    <h3>Stop! Cookie time</h3>We use cookies (sadly not the edible ones) to personalize content and ads,
+                    to
+                    provide social media features and to analyse our traffic. <a href=""> Read more..</a></p>
+                </div>
+                <button onclick="removeco()">I Accept</button>
+            </footer>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
