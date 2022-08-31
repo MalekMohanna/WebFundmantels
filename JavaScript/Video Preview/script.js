@@ -9,4 +9,5 @@ function off1(element){
 
 function whenclicked(element){
     element.muted=false;
+    element.pause();
 }
