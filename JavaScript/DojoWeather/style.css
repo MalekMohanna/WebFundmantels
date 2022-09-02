@@ -119,6 +119,13 @@ font-size: 30px;
 
 .low{
     color:#2b78e4 ;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+p{
+    font-size: 25px;
 }
 
 footer{
@@ -130,6 +137,7 @@ footer{
     align-items: center;
     position: fixed;
     bottom: 5px;
+    background-color: #eeeeee;
 }
 
 img{
