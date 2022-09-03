@@ -18,6 +18,8 @@ function change(element) {
     else {
         changeFtoC(x, y);
     }
+    console.log(x);
+    console.log(y);
 }
 
 function changeFtoC(x,y) {
