@@ -18,14 +18,12 @@ function change(element) {
     else {
         changeFtoC(x, y);
     }
-    console.log(x);
-    console.log(y);
 }
 
 function changeFtoC(x,y) {
     for (var i = 0; i < x.length; i++) {
         x[i].innerHTML = parseInt(parseInt(x[i].innerHTML) * (9 / 5) + 32);
-    } 0
+    } 
     for (var j = 0; j < y.length; j++) {
         y[j].innerText = parseInt(parseInt(y[j].innerText) * (9 / 5) + 32);
     }
@@ -35,7 +33,7 @@ function changeFtoC(x,y) {
 function changeCtoF(x,y) {
     for (var i = 0; i < x.length; i++) {
         x[i].innerHTML = parseInt(parseInt((x[i].innerHTML) - 32) * (5 / 9));
-    } 0
+    } 
     for (var j = 0; j < y.length; j++) {
         y[j].innerText = parseInt(parseInt((x[j].innerHTML) - 32) * (5 / 9));
     }

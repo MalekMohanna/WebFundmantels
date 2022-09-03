@@ -48,6 +48,8 @@ div.header-boxes{
 .cities{
     color: white;
     text-decoration: none;
+    cursor:pointer;
+    font-size: 35px;
 }
 
 nav{
